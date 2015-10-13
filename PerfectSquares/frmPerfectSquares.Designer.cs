@@ -37,24 +37,25 @@
             // lblInstructions
             // 
             this.lblInstructions.AutoSize = true;
-            this.lblInstructions.Location = new System.Drawing.Point(5, 111);
+            this.lblInstructions.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInstructions.Location = new System.Drawing.Point(2, 21);
             this.lblInstructions.Name = "lblInstructions";
-            this.lblInstructions.Size = new System.Drawing.Size(141, 39);
+            this.lblInstructions.Size = new System.Drawing.Size(192, 57);
             this.lblInstructions.TabIndex = 0;
             this.lblInstructions.Text = "Enter a number and I will\r\ngive you the perfect squares\r\nbelow it";
             // 
             // lstAnswers
             // 
             this.lstAnswers.FormattingEnabled = true;
-            this.lstAnswers.Location = new System.Drawing.Point(152, 39);
+            this.lstAnswers.Location = new System.Drawing.Point(38, 117);
             this.lstAnswers.Name = "lstAnswers";
             this.lstAnswers.ScrollAlwaysVisible = true;
-            this.lstAnswers.Size = new System.Drawing.Size(120, 212);
+            this.lstAnswers.Size = new System.Drawing.Size(120, 121);
             this.lstAnswers.TabIndex = 2;
             // 
             // nudSquareRoot
             // 
-            this.nudSquareRoot.Location = new System.Drawing.Point(152, 13);
+            this.nudSquareRoot.Location = new System.Drawing.Point(38, 91);
             this.nudSquareRoot.Name = "nudSquareRoot";
             this.nudSquareRoot.Size = new System.Drawing.Size(120, 20);
             this.nudSquareRoot.TabIndex = 3;
@@ -63,7 +64,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(197, 261);
             this.Controls.Add(this.nudSquareRoot);
             this.Controls.Add(this.lstAnswers);
             this.Controls.Add(this.lblInstructions);
