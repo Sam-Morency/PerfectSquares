@@ -41,7 +41,7 @@
             this.lblInstructions.Name = "lblInstructions";
             this.lblInstructions.Size = new System.Drawing.Size(141, 39);
             this.lblInstructions.TabIndex = 0;
-            this.lblInstructions.Text = "Enter a number and I will\r\ngive you the perfect squares\r\nbelow it.";
+            this.lblInstructions.Text = "Enter a number and I will\r\ngive you the perfect squares\r\nbelow it";
             // 
             // lstAnswers
             // 
